@@ -95,14 +95,15 @@ if "llm" in st.session_state and "graph" in st.session_state:
 
     if uploaded_file:
         process_pdf(
-            uploaded_file,
-            st.session_state["llm"],
-            st.session_state["embeddings"],
-            st.session_state["graph"],
-            st.session_state["NEO4J_URL"],
-            st.session_state["NEO4J_USER"],
-            st.session_state["NEO4J_PASSWORD"]
-        )
+    uploaded_file,
+    st.session_state["llm"],
+    st.session_state["embeddings"],
+    st.session_state["graph"],
+    st.session_state["NEO4J_URL"],
+    st.session_state["NEO4J_USER"],
+    st.session_state["NEO4J_PASSWORD"],
+    st.session_state["NEO4J_DATABASE"]   # ✅ new
+)
 
 # -------------------------
 # Q&A Interface
