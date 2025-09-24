@@ -15,6 +15,16 @@
 
 ---
 
+## 📸 Example Outputs
+
+### 1. Extracted Knowledge Graph from a Clinical Trial PDF
+![Knowledge Graph](clinical_data/graph%20db%20taable.png)
+
+### 2. Clinical Trial Report Example
+![Clinical Trial Report](clinical_data/visualisation.png)
+
+---
+
 ## 📦 Tech Stack
 
 - [Streamlit](https://streamlit.io/) – frontend UI  
@@ -114,6 +124,11 @@ medgraph-analyzer/
 ├── pdf_processor.py     # PDF → Graph processing pipeline
 ├── requirements.txt     # Dependencies
 ├── .env.example         # Example environment variables
+├── clinical_data/       # Example inputs & outputs
+│   ├── clinical_trial.docx
+│   ├── clinical_trial.pdf
+│   ├── graph db taable.png
+│   └── visualisation.png
 └── README.md            # Project documentation
 ```
 
