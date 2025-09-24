@@ -17,11 +17,17 @@
 
 ## 📸 Example Outputs
 
-### 1. Extracted Knowledge Graph from a Clinical Trial PDF
-![Knowledge Graph](clinical_data/graph%20db%20taable.png)
+### 1. Frontend UI
+![Frontend](clinical_data/frontend.png)
 
-### 2. Clinical Trial Report Example
-![Clinical Trial Report](clinical_data/visualisation.png)
+### 2. Extracted Knowledge Graph (visual structure)
+![Graph Visualization](clinical_data/visualisation.png)
+
+### 3. Graph Table View
+![Graph Table](clinical_data/graph%20db%20taable.png)
+
+### 4. Clinical Trial Report (PDF)
+[📄 Open Clinical Trial Report](clinical_data/clinical_trial.pdf)
 
 ---
 
@@ -96,25 +102,6 @@ Then open:
 
 ---
 
-## 🧩 Example Graph Schema
-
-Nodes:
-- `Patient`
-- `Disease`
-- `Medication`
-- `Symptom`
-- `Test`
-- `Doctor`
-
-Relationships:
-- `HAS_DISEASE`
-- `TAKES_MEDICATION`
-- `HAS_SYMPTOM`
-- `UNDERWENT_TEST`
-- `TREATED_BY`
-
----
-
 ## 📂 Project Structure
 
 ```
@@ -127,8 +114,9 @@ medgraph-analyzer/
 ├── clinical_data/       # Example inputs & outputs
 │   ├── clinical_trial.docx
 │   ├── clinical_trial.pdf
+│   ├── frontend.png
 │   ├── graph db taable.png
-│   └── visualisation.png
+│   ├── visualisation.png
 └── README.md            # Project documentation
 ```
 
